@@ -36,7 +36,7 @@ public class Auto {
     public Auto(String newMarca, String newModello, double newPrezzo){
         marca = newMarca;
         modello = newModello;
-        if (prezzo < 0)
+        if (newPrezzo < 0)
             newPrezzo = 0;
         prezzo = newPrezzo;
     }
@@ -46,7 +46,7 @@ public class Auto {
     }
 
     public Auto(double newPrezzo){
-        if (prezzo < 0)
+        if (newPrezzo < 0)
             newPrezzo = 0;
         prezzo = newPrezzo;
     }
