@@ -12,7 +12,7 @@ public class Auto {
     public void setModello(String newModello){
         modello = newModello;
     }
-    public void setMarca(double newPrezzo){
+    public void setPrezzo(double newPrezzo){
         prezzo = newPrezzo;
     }
 
@@ -36,6 +36,14 @@ public class Auto {
     public Auto(String newMarca, String newModello, double newPrezzo){
         marca = newMarca;
         modello = newModello;
+        prezzo = newPrezzo;
+    }
+    public Auto(String newMarca, String newModello){
+        marca = newMarca;
+        modello = newModello;
+    }
+
+    public Auto(double newPrezzo){
         prezzo = newPrezzo;
     }
 
