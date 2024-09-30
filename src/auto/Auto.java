@@ -13,6 +13,8 @@ public class Auto {
         modello = newModello;
     }
     public void setPrezzo(double newPrezzo){
+        if (newPrezzo < 0)
+            newPrezzo = 0;
         prezzo = newPrezzo;
     }
 
